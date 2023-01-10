@@ -8,10 +8,10 @@ const IndexPage: React.FC = () => {
   return (
     <main>
       <Layout pageTitle="Home Page">
-        <p>I'm making this by following the Gatsby Tutorial.</p>
+        <h2>Hello welcome to my blog where i write down all my ideas</h2>
         <StaticImage
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        src="https://media.cheggcdn.com/media/ec4/ec4fb5ed-7b44-4214-900e-7a701d9b9fb4/phpHmcJZf.png"
       />
       </Layout>
     </main>
