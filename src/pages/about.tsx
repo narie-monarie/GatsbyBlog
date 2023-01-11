@@ -13,7 +13,7 @@ const about: React.FC = () => {
         <h5>Contact me on</h5>
         <p>Email: jobmonari7@gmail.com</p>
         <p>WhatsApp: 0776379667</p>
-        <p>Github: <a href="github.com/narie-monarie">click here</a></p>
+        <p>Github: github.com/narie-monarie</p>
       </Layout>
     </main>
   );
