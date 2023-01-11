@@ -9,6 +9,7 @@ interface Data {
 const BlogPage = (props: Data) => {
   return (
     <Layout pageTitle="My Blog Posts">
+      <hr />
       {props.data.allMdx.nodes.map((node: any) => (
         <article key={node.id}>
           <h2>{node.frontmatter.title}</h2>
