@@ -7,10 +7,12 @@ const about: React.FC = () => {
   return (
     <main>
       <Layout pageTitle="About Me">
-        <p>
-          Hi there! I'm the proud creator of this site, which I built with
-          Gatsby.
-        </p>
+      <p>i code in: Java | Typescript | Go && C++ [for Data Structures]</p>
+      <p>Currently learning ML in python</p>
+      <h5>Contact me on<h5>
+      <p>Email: jobmonari7@gmail.com</p>
+      <p>WhatsApp: 0799435461</p>
+      <p>Github: 0799435461</p>
       </Layout>
     </main>
   );
