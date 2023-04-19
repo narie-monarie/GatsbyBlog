@@ -1,6 +1,6 @@
 ---
 title: "Linked Lists are Easy"
-date: "2022-01-11"
+date: "2023-04-11"
 slug: "second-post"
 ---
 
@@ -8,3 +8,15 @@ slug: "second-post"
 
 - What are linked Lists 
  - like arrays they are dynamic Data Structures
+ - I am going to create a linked list in Typescript because it is easy to understand
+ ```ts
+    class Node<T> {
+     data: T;
+     next: Node<T> | null = null;
+
+     constructor(data: T) {
+       this.data = data;
+     }
+   }
+ ```
+ - The code above represents one node like [4] then the next, is a pointer to the next node in that its [4]->
